@@ -1,0 +1,34 @@
+Payroll System in Python
+This Python program implements a basic payroll system with an SQLite database for employee and payroll data management.
+
+Features:
+
+Manages employee information (ID, name, department, position, salary)
+Adds, updates, and deletes employee records
+Calculates payroll (gross salary, tax, net salary) for a specific employee
+Generates and displays payslips for processed payroll
+Requirements:
+
+Python 3
+sqlite3 library
+Instructions:
+
+Save the code as payroll.py.
+Run the program: python payroll.py
+Usage:
+
+The program presents a menu-driven interface for different functionalities:
+
+Add Employee: Enter details to create a new employee record.
+Update Employee: Enter the employee ID to modify existing information.
+Delete Employee: Enter the employee ID to remove a record.
+Calculate Payroll: Enter the employee ID and pay date to calculate gross salary, tax, and net salary.
+Generate Payslip: Enter the employee ID and pay date to view a payslip with detailed salary breakdown.
+Exit: Terminates the program.
+Database:
+
+The program uses a SQLite database named payroll.db to store employee and payroll data. The database is created automatically if it doesn't exist.
+
+Note:
+
+This is a basic example and assumes a flat tax rate. You can modify the code to incorporate more complex tax calculations and deductions based on your specific requirements.
